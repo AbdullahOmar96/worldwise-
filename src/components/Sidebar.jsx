@@ -11,7 +11,9 @@ export default function Sidebar() {
         <p>List of cities</p>
         <footer className={styles.footer}>
             <p className={styles.copyright}>
-              
+              <span>
+                das
+              </span>
 
             </p>
 
