@@ -5,17 +5,16 @@ import styles from "./sidebar.module.css"
 
 export default function Sidebar() {
   return (
-    <div className={styles.Sidebar}>
+    <div className={styles.sidebar}>
         <Logo/>
         <AppNav/>
         <p>List of cities</p>
         <footer className={styles.footer}>
             <p className={styles.copyright}>
-              <span>
-                das
-              </span>
+              &copy; Copyright {new Date().getFullYear()} by WorldWise Inc.
 
             </p>
+
 
         </footer>
     </div>
