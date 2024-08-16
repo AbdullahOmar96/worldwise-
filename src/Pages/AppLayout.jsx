@@ -11,8 +11,6 @@ export default function AppLayout() {
     
         <Sidebar/>
         <Map/>
-        
-
     </div>
   )
 }
